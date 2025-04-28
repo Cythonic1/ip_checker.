@@ -5,7 +5,7 @@
 This idea is simple and as follow.
 - First take your IP and convert it into bits.
 - Second take the destination IP and do the same.
-- Third take the subnet mask for your devices and to the same too.
+- Third take the subnet mask for your device and do the same too.
 - fourth, XOR your IP and the Dest IP.
 - Fifth, AND the results from the XOR operation and use AND operator with the subnet mask.
 - Sixth, See the magic. If the resulted AND are all zero meaning the IP is within your LAN. Other wise it mean that it out side of your LAN.
